@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/web_hosting_provider
+    username: root
+    password: Abdullah2004*
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  secret: 1o4RbVqRTa+lEWCx9ZKPNProd7NINpEPB46grgr2mW8=
+  accessTokenLife: 5
+  refreshTokenLife: 30
+  issuer: www.novatechzone.com
+springdoc:
+  paths-to-match: /**
