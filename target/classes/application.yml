@@ -1,9 +1,8 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/web_hosting_provider
-    username: root
-    password: Abdullah2004*
+    url: jdbc:postgresql://dpg-cnd4t1ed3nmc738jm8t0-a.oregon-postgres.render.com:5432/web_hosting_provider_db
+    username: user
+    password: Njwws6orLB6plu5B8rbpYLAKMim0jONO
   jpa:
     hibernate:
       ddl-auto: update
