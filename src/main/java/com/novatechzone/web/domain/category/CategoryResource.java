@@ -1,6 +1,7 @@
 package com.novatechzone.web.domain.category;
 
 import com.novatechzone.web.dto.ApplicationResponseDTO;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
